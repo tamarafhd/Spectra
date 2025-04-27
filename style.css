@@ -25,7 +25,7 @@ body {
 
 .logo img{
     height: 65px;
-    width: 50px;
+    width: 240px;
 }
 
 .nav-links a{
@@ -159,6 +159,7 @@ body {
     margin-top: 90px;
     margin-bottom: 90px;
     padding-left:200px;
+	margin-left:25%;
 }
 
 .shapes{
@@ -203,7 +204,7 @@ body {
     width: 200px;
     height: 50px;
     font-family: 'Poppins';
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom:0px;
 }
 
@@ -215,7 +216,8 @@ body {
 
 .fourth h1{
     font-size:45px;
-    font-family: "Megan Demo Font";
+    font-family: "Megan Demo Font",serif;
+	font-weight:normal;
     margin-bottom: 70px;
     text-align: center;
     margin-top: 70px;
@@ -248,7 +250,8 @@ body {
     margin-left:0px;
     text-align: center;
     font-family: 'Poppins';
-    margin-top:0px;
+    	font-weight:normal;
+	margin-top:0px;
     font-style: italic;
 }
 
@@ -308,6 +311,7 @@ span .seperator{
 .fifth-content h1 pre{
     font-size: 70px;
     font-family: 'Megan Demo Font';
+		font-weight:normal;
     color: #56AF42;
     line-height:60px;
     text-align: end;
@@ -316,6 +320,7 @@ span .seperator{
 
 .fifth-content pre{
     font-family: 'Poppins';
+	font-weight:normal;
     line-height:18px;
     text-align: end;
     margin-right:180px;
@@ -391,6 +396,8 @@ span .seperator{
 .contact pre{
     font-size:18px;
     font-family:'Poppins';
+		font-weight:normal;
+
 }
 
 .contact .social-icons .cs{
@@ -404,4 +411,8 @@ span .seperator{
     margin-top:0px;
     display:flex;
     gap:12px;
+}
+.cs1{
+	color:white;
+    text-decoration:none;
 }
